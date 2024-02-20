@@ -34,8 +34,8 @@ int main(int argc, char *argv[]){
 
             return 0;
         }
-        cerr << "Usage: " << argv[0] << " -flags <path> <filetype>" << std::endl;
-        cerr << "Type -h for help" << std::endl;
+        cerr << "Usage: " << argv[0] << " -flags <path> <filetype>" << endl;
+        cerr << "Type -h for help" << endl;
         return 1;
         break;
     case 3:
