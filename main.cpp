@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
             cerr << "e.g: antGrep . .pdf > out.txt" << endl; */
             cerr << "Hint: " <<  "antGrep . <filetype> to serach current directory recursively" << endl;
             cerr << "Hint: " <<  "antGrep .. <filetype> to serach the parent directory recursively" << endl;
-            cerr << "Hint: " <<  "antGrep <path> <filetype> > <outfile> to redirect input to the outfile" << endl;
+            cerr << "Hint: " <<  "antGrep <path> <filetype> > <outfile> to redirect output to the outfile" << endl;
 
             return 0;
         }
