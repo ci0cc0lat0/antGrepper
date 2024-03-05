@@ -1,7 +1,0 @@
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/install/strip.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/install/local.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/install.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/list_install_components.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/build/CMakeFiles/antGrep.dir
