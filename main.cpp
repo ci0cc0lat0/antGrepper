@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
         if(strcmp(argv[1],"-h") == 0){
             cerr << "A tool for recursivly searching a path for all desired filetypes\n" << endl;
             cerr << "Usage: " << argv[0] << " -flags <path> <filetype>" << std::endl;
-            cerr << "Usage example: " << argv[0] << " . .pdf\n" << std::endl;
+            cerr << "Usage example: " << argv[0] << " . .pdf\n" << std::endl; 
 
             cerr << "Flags: " << " -p"<<" for an out file" << std::endl;
             //cerr << "Flags: " << " -r"<<" to print current directory files' relative path\n" << std::endl;
