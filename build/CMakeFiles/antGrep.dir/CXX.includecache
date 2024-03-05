@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/main.cpp
+cstdio
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/cstdio
+iostream
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/iostream
+string
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/string
+vector
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/vector
+filesystem
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/filesystem
+fstream
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/fstream
+cstring
+-
+recursive_search.h
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/recursive_search.h
+
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/recursive_search.h
+cstdio
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/cstdio
+iostream
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/iostream
+string
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/string
+vector
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/vector
+filesystem
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/filesystem
+fstream
+/mnt/c/Users/antho/Documents/AntsProjects/Code/Cpp/antGrepper/fstream
+
