@@ -19,7 +19,11 @@ From github, once cloned, unzipped or however you install the source files, in t
 
 ## Use
 The last command will install `antgrep` as a binary to be used like so:
+
 `antgrep -h`                    - for help
+
 `antgrep <path> <extension>`    - for general use
+
 `antgrep -p <path> <extension>` - to print the output into an out file
+
 `antgrep -w <path> <extension>` - to print just the files
