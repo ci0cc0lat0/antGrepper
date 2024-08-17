@@ -16,7 +16,7 @@ void grep::recursive_search(const fs::path path, string ext, ofstream& output_fi
         }
         else if(grep::is_extension(entry,ext)){
             fs::path out_path = entry.path();
-            std::string absolute = fs::absolute(out_path.filename()).string();
+            std::string absolute = fs::canonical(out_path).string();
             output_file << absolute << "\n";
             
         }
@@ -34,15 +34,13 @@ void grep::recursive_search(const fs::path path, string ext){
         if(entry.is_directory()){
             dirs.push_back(entry);
         }
+        // This does not give absolute path, gives current path + file, doesnt show deeper
         else if(grep::is_extension(entry,ext)){
             fs::path out_path = entry.path();
-            //fs::path current = fs::current_path();
-            //fs::path resolved = fs::canonical(current / out_path);
-            //std::string rel = out_path.relative_path().string();
-            //std::string remove_quotes = out_path.filename().string();
 
-            std::string absolute = fs::absolute(out_path.filename()).string();
-            std::cout << absolute << "\n";
+            fs::path absolute_path = fs::canonical(out_path);
+            std::string remove_quotes = absolute_path.string();
+            std::cout << remove_quotes << "\n";
         }
     }
     

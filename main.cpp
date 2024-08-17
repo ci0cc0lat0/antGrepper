@@ -26,15 +26,15 @@ int main(int argc, char *argv[]){
 
             cerr << "Flags: " << " -p"<<" for an out file" << std::endl;
             //cerr << "Flags: " << " -r"<<" to print current directory files' relative path\n" << std::endl;
-            cerr << "Flags: " << " -w"<<" to print current directory files' absolute path\n" << std::endl;
-
+            /* cerr << "Flags: " << " -w"<<" to print current directory files' absolute path\n" << std::endl; */
+            cerr << "Flags: " << " -w"<<" to print a list of all files without any directories\n" << std::endl;
 
             /* cerr << "Hint: Running the command without any flags and '> <filename.txt>' at the end will redirect output to that file" << endl;
             cerr << "Hint: Using . or .. as the path argument will search the current directory or the above parent directory respectively" << endl;
             cerr << "e.g: antGrep . .pdf > out.txt" << endl; */
-            cerr << "Hint: " <<  "antGrep . <filetype> to serach current directory recursively" << endl;
-            cerr << "Hint: " <<  "antGrep .. <filetype> to serach the parent directory recursively" << endl;
-            cerr << "Hint: " <<  "antGrep <path> <filetype> > <outfile> to redirect output to the outfile" << endl;
+            cerr << "Hint: " <<  "antgrep . <filetype> to serach current directory recursively" << endl;
+            cerr << "Hint: " <<  "antgrep .. <filetype> to serach the parent directory recursively" << endl;
+            cerr << "Hint: " <<  "antgrep <path> <filetype> > <outfile> to redirect output to the outfile" << endl;
 
             return 0;
         }
