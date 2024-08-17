@@ -3,11 +3,19 @@
 
 ## Install
 From github, once cloned, unzipped or however you install the source files, in the root directory linux run these commands:
+
+`sudo apt-get update && sudo apt-get install build-essential` - Optional as this was needed for me on a fresh linux install
+
 `mkdir build`
+
 `cd build`
+
 `cmake ..`
+
 `make`
+
 `sudo make install`
+
 
 ## Use
 The last command will install `antgrep` as a binary to be used like so:
