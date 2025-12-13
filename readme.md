@@ -2,7 +2,7 @@
 `antgrep` is a tool meant to recursivly search through a directory and subdirectories for a given file extension. These files are meant to be ran and installed as a binary to run correctly.
 
 ## Install
-From github, once cloned, unzipped or however you install the source files, in the root directory linux run these commands:
+From github, once cloned, unzipped or however you install the source files, in the root directory run these commands:
 
 `sudo apt-get update && sudo apt-get install build-essential` - Optional as this was needed for me on a fresh linux install
 
